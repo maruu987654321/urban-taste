@@ -1,0 +1,130 @@
+<html>
+<head>
+    <title>Urban Taste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка -->
+    <header>
+        <nav class="nav">
+            <a href="#about">О ресторане</a>
+            <a href="#menu">Меню</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+    </header>
+	<main>
+    <!-- О ресторане -->
+    <section id="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Urban Taste</h2>
+                <p>
+                    Urban Taste — современный городской ресторан с уютной атмосферой.
+                    Мы готовим блюда европейской и авторской кухни из свежих ингредиентов.
+                    Это место для встреч, общения и вкусной еды.
+                </p>
+            </div>
+
+            <div class="about-image">
+                <img src="assets/photo.png" alt="Зал ресторана" class="photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Меню -->
+    <section id="menu">
+        <h2>Меню</h2>
+
+        <div class="menu-list">
+            <article class="dish">
+                <h3>Паста Карбонара</h3>
+                <p>Паста, сливочный соус, бекон</p>
+                <p>450 ₽</p>
+            </article>
+
+            <article class="dish">
+                <h3>Бургер Urban</h3>
+                <p>Говяжья котлета, сыр, соус</p>
+                <p>520 ₽</p>
+            </article>
+
+            <article class="dish">
+                <h3>Салат Цезарь</h3>
+                <p>Курица, салат, соус</p>
+                <p>390 ₽</p>
+            </article>
+
+            <article class="dish">
+                <h3>Томатный суп</h3>
+                <p>Томаты, специи</p>
+                <p>320 ₽</p>
+            </article>
+
+            <article class="dish">
+                <h3>Пицца Маргарита</h3>
+                <p>Томаты, моцарелла</p>
+                <p>480 ₽</p>
+            </article>
+
+            <article class="dish">
+                <h3>Чизкейк</h3>
+                <p>Нежный десерт</p>
+                <p>280 ₽</p>
+            </article>
+        </div>
+    </section>
+      
+      <!-- Отзывы посетителей -->
+<section class="reviews">
+    <h2>Отзывы посетителей</h2>
+
+    <div class="reviews-list">
+        <article class="review">
+            <div class="review-text">
+                <h3>Анна</h3>
+                <p>
+                    Очень уютное место, вкусная еда и приятная атмосфера.
+                    Обязательно приду сюда ещё раз!
+                </p>
+            </div>
+            <div class="review-rating">5.0</div>
+        </article>
+
+        <article class="review">
+            <div class="review-text">
+                <h3>Игорь</h3>
+                <p>
+                    Понравилось меню и подача блюд.
+                    Обслуживание на хорошем уровне.
+                </p>
+            </div>
+            <div class="review-rating">4.7</div>
+        </article>
+
+        <article class="review">
+            <div class="review-text">
+                <h3>Мария</h3>
+                <p>
+                    Отличное место для встречи с друзьями.
+                    Особенно понравились десерты.
+                </p>
+            </div>
+            <div class="review-rating">4.9</div>
+        </article>
+    </div>
+</section>  
+    </main>
+  
+    <!-- Контакты -->
+	<footer id="contacts">
+        <h2>Контакты</h2>
+
+        <div class="contacts">
+            <p>Телефон: +7 (900) 123-45-67</p>
+            <p>Почта: info@urbantaste.ru</p>
+            <p>Соцсети: VK / Instagram</p>
+        </div>
+	</footer>
+</body>
+</html>
